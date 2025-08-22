@@ -233,10 +233,11 @@
             pictureBox1.Image = Practico3.Properties.Resources.maleUser;
             pictureBox1.Location = new Point(342, 105);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(90, 90);
+            pictureBox1.Size = new Size(82, 82);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // RBMujer
             // 
@@ -307,6 +308,7 @@
             Controls.Add(Lmodificar);
             Controls.Add(LNya);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Pequeño_Formulario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pequeño Formulario";
